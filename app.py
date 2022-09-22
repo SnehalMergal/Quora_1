@@ -23,8 +23,9 @@ import datetime
 import time
 import streamlit as st
 
-data_dict = pickle.load('model.pkl', 'rb')
-
+with open ('model.pkl', 'rb') as f:
+   data_dict = pickle.load(f)
+  
 def convert_text_to_index_array(text, dictionary):
    words=text_to_word_sequence(text)
    wordIndices=[]
