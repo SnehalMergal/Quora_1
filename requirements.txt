@@ -1,6 +1,11 @@
-keras==2.8.0
-keras_preprocessing==1.1.2
-numpy==1.21.6
-pandas==1.3.5
-session_info==1.0.0
-streamlit==1.12.2
+pickle
+json
+pandas
+numpy
+re
+keras
+scikit-learn
+Zipfile
+datetime
+time
+streamlit
